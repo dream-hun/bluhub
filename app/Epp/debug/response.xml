@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737117282420</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737118087940</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737118106461</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="2400">
+            <msg>Command failed</msg>
+        </result>
+        <trID>
+            <clTRID>18251374421013634922</clTRID>
+            <svTRID>1737118106546</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737118106965</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737118239261</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <resData>
+            <domain:chkData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd">
+                <domain:cd>
+                    <domain:name avail="1">abanabato.rw</domain:name>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="1">abanabato.co.rw</domain:name>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="1">abanabato.org.rw</domain:name>
+                </domain:cd>
+            </domain:chkData>
+        </resData>
+        <trID>
+            <clTRID>7941461861018874447</clTRID>
+            <svTRID>1737118239376</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737118240492</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737118294770</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="2002">
+            <msg>Command use error; (03) Not a supported zone</msg>
+        </result>
+        <trID>
+            <clTRID>261835468468326552</clTRID>
+            <svTRID>1737118294857</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737118295195</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737118311340</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <resData>
+            <domain:chkData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd">
+                <domain:cd>
+                    <domain:name avail="0">bluhub.rw</domain:name>
+                    <domain:reason>(00) The domain exists</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="1">bluhub.co.rw</domain:name>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="1">bluhub.org.rw</domain:name>
+                </domain:cd>
+            </domain:chkData>
+        </resData>
+        <trID>
+            <clTRID>1992214106657162675</clTRID>
+            <svTRID>1737118311434</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737118312422</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <trID>
+            <svTRID>1737118453220</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+    <response>
+        <result code="1000">
+            <msg>Command completed successfully</msg>
+        </result>
+        <msgQ count="12" id="121389"/>
+        <resData>
+            <domain:chkData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd">
+                <domain:cd>
+                    <domain:name avail="0">bluhub.rw</domain:name>
+                    <domain:reason>(00) The domain exists</domain:reason>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="1">bluhub.co.rw</domain:name>
+                </domain:cd>
+                <domain:cd>
+                    <domain:name avail="1">bluhub.org.rw</domain:name>
+                </domain:cd>
+            </domain:chkData>
+        </resData>
+        <trID>
+            <clTRID>1893546249169232328</clTRID>
+            <svTRID>1737118453294</svTRID>
+        </trID>
+    </response>
+</epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd"><response><result code="1000"><msg>Command completed successfully</msg></result><msgQ count="12" id="121389"/><trID><svTRID>1737128573902</svTRID></trID></response></epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd"><response><result code="1000"><msg>Command completed successfully</msg></result><msgQ count="12" id="121389"/><resData><domain:chkData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd"><domain:cd><domain:name avail="1">abanabato.rw</domain:name></domain:cd><domain:cd><domain:name avail="1">abanabato.co.rw</domain:name></domain:cd><domain:cd><domain:name avail="1">abanabato.org.rw</domain:name></domain:cd></domain:chkData></resData><trID><clTRID>2118577531038092943</clTRID><svTRID>1737128573965</svTRID></trID></response></epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd"><response><result code="1000"><msg>Command completed successfully</msg></result><msgQ count="12" id="121389"/><trID><svTRID>1737128602998</svTRID></trID></response></epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd"><response><result code="1000"><msg>Command completed successfully</msg></result><msgQ count="12" id="121389"/><resData><domain:chkData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd"><domain:cd><domain:name avail="1">abamiss.rw</domain:name></domain:cd><domain:cd><domain:name avail="1">abamiss.co.rw</domain:name></domain:cd><domain:cd><domain:name avail="1">abamiss.org.rw</domain:name></domain:cd></domain:chkData></resData><trID><clTRID>330845443637589657</clTRID><svTRID>1737128603051</svTRID></trID></response></epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd"><response><result code="1000"><msg>Command completed successfully</msg></result><msgQ count="12" id="121389"/><trID><svTRID>1737128683224</svTRID></trID></response></epp>
+<?xml version="1.0" encoding="UTF-8"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd"><response><result code="1000"><msg>Command completed successfully</msg></result><msgQ count="12" id="121389"/><resData><domain:chkData xmlns:domain="urn:ietf:params:xml:ns:domain-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:domain-1.0 domain-1.0.xsd"><domain:cd><domain:name avail="0">abamiss rwanda.rw</domain:name><domain:reason>(01) Contains invalid characters</domain:reason></domain:cd><domain:cd><domain:name avail="0">abamiss rwanda.co.rw</domain:name><domain:reason>(01) Contains invalid characters</domain:reason></domain:cd><domain:cd><domain:name avail="0">abamiss rwanda.org.rw</domain:name><domain:reason>(01) Contains invalid characters</domain:reason></domain:cd></domain:chkData></resData><trID><clTRID>13151842721929665121</clTRID><svTRID>1737128683277</svTRID></trID></response></epp>

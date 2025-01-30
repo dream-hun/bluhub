@@ -1,0 +1,399 @@
+
+<!-- 1. Creating Contact 
+Required:
+<contact:id>BLU09</contact:id>
+<contact:postalInfo type="int">
+                    <contact:name>TURIKUMWE Jean Paul</contact:name>
+                    <contact:addr>
+                        <contact:street>Grand Pension Plaza</contact:street>
+                        <contact:city>Dulles</contact:city>
+                        <contact:cc>US</contact:cc>
+                    </contact:addr>
+                </contact:postalInfo>
+<contact:email>jdoe@example.com</contact:email>
+<contact:authInfo>
+                    <contact:pw>2fooBAR</contact:pw>
+                </contact:authInfo>
+-->
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <create>
+            <contact:create
+                xmlns:contact="urn:ietf:params:xml:ns:contact-1.0">
+                <contact:id>BLU09</contact:id>
+                <contact:postalInfo type="int">
+                    <contact:name>TURIKUMWE Jean Paul</contact:name>
+                    <contact:org>BLUHUB LTD</contact:org>
+                    <contact:addr>
+                        <contact:street>Grand Pension Plaza</contact:street>
+                        <contact:street>Suite 100</contact:street>
+                        <contact:city>Dulles</contact:city>
+                        <contact:sp>VA</contact:sp>
+                        <contact:pc>20166-6503</contact:pc>
+                        <contact:cc>US</contact:cc>
+                    </contact:addr>
+                </contact:postalInfo>
+                <contact:voice x="1234">+1.7035555555</contact:voice>
+                <contact:fax>+1.7035555556</contact:fax>
+                <contact:email>jdoe@example.com</contact:email>
+                <contact:authInfo>
+                    <contact:pw>2fooBAR</contact:pw>
+                </contact:authInfo>
+                <contact:disclose flag="0">
+                    <contact:voice/>
+                    <contact:email/>
+                </contact:disclose>
+            </contact:create>
+        </create>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 2. Get the contact information 
+Mandatory: <contact:id>BLU09</contact:id>
+-->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <info>
+            <contact:info
+                xmlns:contact="urn:ietf:params:xml:ns:contact-1.0">
+                <contact:id>BLU09</contact:id>
+            </contact:info>
+        </info>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 3. Modifying a Contact 
+Mandatory: Contact ID to Update
+-->
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <update>
+            <contact:update
+                xmlns:contact="urn:ietf:params:xml:ns:contact-1.0">
+                <contact:id>BLU09</contact:id>
+                <contact:add>
+                    <contact:status s="clientDeleteProhibited"/>
+                </contact:add>
+                <contact:chg>
+                    <contact:postalInfo type="int">
+                        <contact:org>ZAHABUTIMES LTD</contact:org>
+                        <contact:addr>
+                            <contact:street>124 Example Dr.</contact:street>
+                            <contact:street>Suite 200</contact:street>
+                            <contact:city>Dulles</contact:city>
+                            <contact:sp>VA</contact:sp>
+                            <contact:pc>20166-6503</contact:pc>
+                            <contact:cc>US</contact:cc>
+                        </contact:addr>
+                    </contact:postalInfo>
+                    <contact:voice>+1.7034444444</contact:voice>
+                    <contact:fax/>
+                    <contact:authInfo>
+                        <contact:pw>2fooBAR</contact:pw>
+                    </contact:authInfo>
+                    <contact:disclose flag="1">
+                        <contact:voice/>
+                        <contact:email/>
+                    </contact:disclose>
+                </contact:chg>
+            </contact:update>
+        </update>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 4. Deleting Contact
+Mandatory: Contact ID to delete
+-->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <delete>
+            <contact:delete
+                xmlns:contact="urn:ietf:params:xml:ns:contact-1.0">
+                <contact:id>mLXyoUpw</contact:id>
+            </contact:delete>
+        </delete>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 5. Checking Domain availability -->
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+   <epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+     <command>
+       <check>
+         <domain:check
+          xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+           <domain:name>turikumwe.rw</domain:name>
+         </domain:check>
+       </check>
+       <clTRID>'.mt_rand().mt_rand().'</clTRID>
+     </command>
+   </epp>
+   
+
+<!-- 6. Creating a Domain(Registering a domain)
+Required:
+<domain:name>bluhub.rw</domain:name>
+<domain:period unit="y">2</domain:period> Any number of years are allowed
+<domain:registrant>103505249</domain:registrant>
+<domain:authInfo>
+                    <domain:pw>BLU001oX</domain:pw>
+                </domain:authInfo>
+   -->      
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <create>
+            <domain:create
+                xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name>bluhub.rw</domain:name>
+                <domain:period unit="y">2</domain:period>
+                <domain:ns>
+                    <domain:hostObj>ns1.zahabuhost.com</domain:hostObj>
+                    <domain:hostObj>ns2.zahabuhost.com</domain:hostObj>
+                </domain:ns>
+                <domain:registrant>103505249</domain:registrant>
+                <domain:contact type="admin">BLU09</domain:contact>
+                <domain:contact type="tech">mX7BjDpv</domain:contact>
+                <domain:contact type="billing">UTnTGcsR</domain:contact>
+                <domain:authInfo>
+                    <domain:pw>BLU001oX</domain:pw>
+                </domain:authInfo>
+            </domain:create>
+        </create>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+
+<!-- 7. Getting Domain information
+Required:
+<domain:name hosts="all">bluhub.rw</domain:name>
+                <domain:authInfo>
+                    <domain:pw>BLU001oX</domain:pw>
+                </domain:authInfo>
+   --> 
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <info>
+            <domain:info
+                xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name hosts="all">bluhub.rw</domain:name>
+                <domain:authInfo>
+                    <domain:pw>BLU001oX</domain:pw>
+                </domain:authInfo>
+            </domain:info>
+        </info>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+
+<!-- 8. Updating Domain information
+Required:
+<domain:name>bluhub.rw</domain:name>
+
+- An OPTIONAL <domain:add> element that contains attribute values to
+be added to the object.
+- An OPTIONAL <domain:rem> element that contains attribute values to
+be removed from the object.
+- An OPTIONAL <domain:chg> element that contains object attribute
+values to be changed.
+   --> 
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <update>
+            <domain:update
+                xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name>bluhub.rw</domain:name>
+                <domain:rem>
+                    <domain:ns>
+                        <domain:hostObj>ns2.zahabuhost.com</domain:hostObj>
+                    </domain:ns>
+                </domain:rem>
+            </domain:update>
+        </update>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 8. Deleting a domain
+Required:
+<domain:name>bluhub.rw</domain:name>
+
+Note: The delete option is not recommended. It generate refund on a domain
+   --> 
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <delete>
+            <domain:delete
+                xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name>bluhub.rw</domain:name>
+            </domain:delete>
+        </delete>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 9. Renewing a command a domain
+Required:
+<domain:name>bluhub.rw</domain:name>
+<domain:curExpDate>2020-09-04</domain:curExpDate>
+<domain:period unit="y">1</domain:period>
+
+A <domain:curExpDate> element that contains the date on which the
+current validity period ends. This value ensures that repeated
+<renew> commands do not result in multiple, unanticipated
+successful renewals.
+--> 
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <renew>
+            <domain:renew
+                xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name>turikumwe.rw</domain:name>
+                <domain:curExpDate>2020-09-04</domain:curExpDate>
+                <domain:period unit="y">1</domain:period>
+            </domain:renew>
+        </renew>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 10. Initiating the transfer request
+Required:
+<domain:name>ricta.org.rw</domain:name>
+--> 
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <transfer op="request">
+            <domain:transfer
+                xmlns:domain="urn:ietf:params:xml:ns:domain-1.0">
+                <domain:name>ricta.org.rw</domain:name>
+                <domain:period unit="y">1</domain:period>
+                <domain:authInfo>
+                    <domain:pw roid="JD1234-REP">2fooBAR</domain:pw>
+                </domain:authInfo>
+            </domain:transfer>
+        </transfer>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 11. Initiating the transfer request
+Required:
+<domain:name>ricta.org.rw</domain:name>
+--> 
+
+<epp xmlns='urn:ietf:params:xml:ns:epp-1.0'>
+    <command>
+        <transfer op='approve'>
+            <domain:transfer xmlns:domain='urn:ietf:params:xml:ns:domain-1.0'>
+                <domain:name>example.com</domain:name>
+            </domain:transfer>
+        </transfer>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+
+<!-- 12. Creating the Host(Nameservers)
+Required:
+<host:name>ns3.zahabuhost.com</host:name>
+--> 
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <create>
+            <host:create
+                xmlns:host="urn:ietf:params:xml:ns:host-1.0">
+                <host:name>ns3.zahabuhost.com</host:name>
+                <host:addr ip="v4">192.0.2.2</host:addr>
+                <host:addr ip="v4">192.0.2.29</host:addr>
+                <host:addr ip="v6">1080:0:0:0:8:800:200417A</host:addr>
+            </host:create>
+        </create>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 13. Updating the Host(Nameservers)
+Required:
+<host:name>ns1.example.com</host:name>
+--> 
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <update>
+            <host:update
+                xmlns:host="urn:ietf:params:xml:ns:host-1.0">
+                <host:name>ns1.example.com</host:name>
+                <host:add>
+                    <host:addr ip="v4">192.0.2.22</host:addr>
+                    <host:status s="clientUpdateProhibited"/>
+                </host:add>
+                <host:rem>
+                    <host:addr ip="v6">1080:0:0:0:8:800:200417A</host:addr>
+                </host:rem>
+                <host:chg>
+                    <host:name>ns2.example.com</host:name>
+                </host:chg>
+            </host:update>
+        </update>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 14. Updating the Host(Nameservers)
+Required:
+<host:name>ns1.example.com</host:name>
+--> 
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <delete>
+            <host:delete
+                xmlns:host="urn:ietf:params:xml:ns:host-1.0">
+                <host:name>ns1.example.com</host:name>
+            </host:delete>
+        </delete>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>
+
+<!-- 15. UGetting the Host(Nameservers) information
+Required:
+<host:name>ns1.example.com</host:name>
+--> 
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+    <command>
+        <info>
+            <host:info
+                xmlns:host="urn:ietf:params:xml:ns:host-1.0">
+                <host:name>ns3.zahabuhost.com</host:name>
+            </host:info>
+        </info>
+        <clTRID>'.mt_rand().mt_rand().'</clTRID>
+    </command>
+</epp>

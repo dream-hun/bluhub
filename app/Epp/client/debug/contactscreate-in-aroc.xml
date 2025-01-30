@@ -1,0 +1,132 @@
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+  <command>
+    <create>
+      <contact:create xmlns:contact="urn:ietf:params:xml:ns:contact-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:contact-1.0 contact-1.0.xsd">
+        <contact:id>afri-56</contact:id>
+        <contact:postalInfo type="loc">
+          <contact:name>Aroc Training</contact:name>
+          <contact:addr>
+            <contact:street>Street 1 Buja</contact:street>
+            <contact:street>Stree2 Buja</contact:street>
+            <contact:street>Buja</contact:street>
+            <contact:city>Bujumbura</contact:city>
+            <contact:sp>Burundi</contact:sp>
+            <contact:pc>1111</contact:pc>
+            <contact:cc>BI</contact:cc>
+          </contact:addr>
+        </contact:postalInfo>
+        <contact:postalInfo type="int">
+          <contact:name>Afriregister S.A</contact:name>
+          <contact:addr>
+            <contact:street>Street1 Buja</contact:street>
+            <contact:street>Street2</contact:street>
+            <contact:street>Street3</contact:street>
+            <contact:city>Bujumbura</contact:city>
+            <contact:sp>Buja</contact:sp>
+            <contact:pc>1111</contact:pc>
+            <contact:cc>BI</contact:cc>
+          </contact:addr>
+        </contact:postalInfo>
+        <contact:voice>+257.123456789</contact:voice>
+        <contact:fax x="01">+257.123459876</contact:fax>
+        <contact:email>team@afriregister.bi</contact:email>
+        <contact:authInfo>
+          <contact:pw>Afri-001</contact:pw>
+        </contact:authInfo>
+        <contact:disclose flag="0">
+        <contact:voice/>
+        <contact:fax/>
+        <contact:email/>
+        </contact:disclose>
+      </contact:create>
+    </create>
+  </command>
+</epp>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+  <command>
+    <create>
+      <contact:create xmlns:contact="urn:ietf:params:xml:ns:contact-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:contact-1.0 contact-1.0.xsd">
+        <contact:id>afri-56</contact:id>
+        <contact:postalInfo type="loc">
+          <contact:name>Aroc Training</contact:name>
+          <contact:addr>
+            <contact:street>Street 1 Buja</contact:street>
+            <contact:street>Stree2 Buja</contact:street>
+            <contact:street>Buja</contact:street>
+            <contact:city>Bujumbura</contact:city>
+            <contact:sp>Burundi</contact:sp>
+            <contact:pc>1111</contact:pc>
+            <contact:cc>BI</contact:cc>
+          </contact:addr>
+        </contact:postalInfo>
+        <contact:postalInfo type="int">
+          <contact:name>Afriregister S.A</contact:name>
+          <contact:addr>
+            <contact:street>Street1 Buja</contact:street>
+            <contact:street>Street2</contact:street>
+            <contact:street>Street3</contact:street>
+            <contact:city>Bujumbura</contact:city>
+            <contact:sp>Buja</contact:sp>
+            <contact:pc>1111</contact:pc>
+            <contact:cc>BI</contact:cc>
+          </contact:addr>
+        </contact:postalInfo>
+        <contact:voice>+257.123456789</contact:voice>
+        <contact:fax x="01">+257.123459876</contact:fax>
+        <contact:email>team@afriregister.bi</contact:email>
+        <contact:authInfo>
+          <contact:pw>Afri-001</contact:pw>
+        </contact:authInfo>
+        <contact:disclose flag="0">
+        <contact:voice/>
+        <contact:fax/>
+        <contact:email/>
+        </contact:disclose>
+      </contact:create>
+    </create>
+  </command>
+</epp>
+<epp xmlns="urn:ietf:params:xml:ns:epp-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd">
+  <command>
+    <create>
+      <contact:create xmlns:contact="urn:ietf:params:xml:ns:contact-1.0" xsi:schemaLocation="urn:ietf:params:xml:ns:contact-1.0 contact-1.0.xsd">
+        <contact:id>afri-56</contact:id>
+        <contact:postalInfo type="loc">
+          <contact:name>Aroc Training</contact:name>
+          <contact:addr>
+            <contact:street>Street 1 Buja</contact:street>
+            <contact:street>Stree2 Buja</contact:street>
+            <contact:street>Buja</contact:street>
+            <contact:city>Bujumbura</contact:city>
+            <contact:sp>Burundi</contact:sp>
+            <contact:pc>1111</contact:pc>
+            <contact:cc>BI</contact:cc>
+          </contact:addr>
+        </contact:postalInfo>
+        <contact:postalInfo type="int">
+          <contact:name>Afriregister S.A</contact:name>
+          <contact:addr>
+            <contact:street>Street1 Buja</contact:street>
+            <contact:street>Street2</contact:street>
+            <contact:street>Street3</contact:street>
+            <contact:city>Bujumbura</contact:city>
+            <contact:sp>Buja</contact:sp>
+            <contact:pc>1111</contact:pc>
+            <contact:cc>BI</contact:cc>
+          </contact:addr>
+        </contact:postalInfo>
+        <contact:voice>+257.123456789</contact:voice>
+        <contact:fax x="01">+257.123459876</contact:fax>
+        <contact:email>team@afriregister.bi</contact:email>
+        <contact:authInfo>
+          <contact:pw>Afri-001</contact:pw>
+        </contact:authInfo>
+        <contact:disclose flag="0">
+        <contact:voice/>
+        <contact:fax/>
+        <contact:email/>
+        </contact:disclose>
+      </contact:create>
+    </create>
+  </command>
+</epp>

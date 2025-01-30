@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+          <epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+          <command>
+          <check>
+          <domain:check
+          xmlns:domain="urn:ietf:params:xml:ns:domain-1.0"><domain:name>abanabato.rw</domain:name><domain:name>abanabato.co.rw</domain:name><domain:name>abanabato.org.rw</domain:name></domain:check>
+          </check>
+          <clTRID>2118577531038092943</clTRID>
+          </command>
+          </epp>
+          <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+          <epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+          <command>
+          <check>
+          <domain:check
+          xmlns:domain="urn:ietf:params:xml:ns:domain-1.0"><domain:name>abamiss.rw</domain:name><domain:name>abamiss.co.rw</domain:name><domain:name>abamiss.org.rw</domain:name></domain:check>
+          </check>
+          <clTRID>330845443637589657</clTRID>
+          </command>
+          </epp>
+          <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+          <epp xmlns="urn:ietf:params:xml:ns:epp-1.0">
+          <command>
+          <check>
+          <domain:check
+          xmlns:domain="urn:ietf:params:xml:ns:domain-1.0"><domain:name>abamiss rwanda.rw</domain:name><domain:name>abamiss rwanda.co.rw</domain:name><domain:name>abamiss rwanda.org.rw</domain:name></domain:check>
+          </check>
+          <clTRID>13151842721929665121</clTRID>
+          </command>
+          </epp>
+          
